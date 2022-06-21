@@ -1,0 +1,40 @@
+@import '../color.css';
+
+.btn--submit{
+  color: #fff;
+  cursor: pointer;
+  background: var(--blue_primary);
+  border: 0;
+  padding: 16px;
+  transition: 0.4s;
+
+  width: fit-content;
+}
+
+.btn--login{
+  border: 2px solid var(--blue_primary);
+  color: var(--blue_primary);
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 20px;
+  padding: 16px 52px;
+  transition: 0.4s;
+  width: fit-content;
+}
+
+.btn--login:hover{
+  background-color: var(--blue_secondary);
+}
+.btn--submit:hover{
+  background-color: var(--blue_primary_hover);
+}
+
+#btn--color{
+  color: var(--white_100);
+} 
+
+@media screen and (min-width: 630px) {
+  .lupa--hidden{
+    display: none;
+  }
+}
